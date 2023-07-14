@@ -1,0 +1,25 @@
+{
+  "name": "landing-test",
+  "version": "1.0.0",
+  "description": "Página de prueba",
+  "main": "index.html",
+  "scripts": {
+    "build": "postcss css/tailwind.css --output css/styles.css"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrendaMorales97/landing-test.git"
+  },
+  "author": "Brenda Morales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrendaMorales97/landing-test/issues"
+  },
+  "homepage": "https://github.com/BrendaMorales97/landing-test#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
